@@ -1,7 +1,7 @@
 # 🔐 Module 06 : Autorité de Certification (AD CS WS2026) & Service DHCP
 
 ## 🎯 Objectifs
-- Déployer une **PKI d'Entreprise** avec le rôle **Active Directory Certificate Services (AD CS)** sous **Windows Server 2026** (`oclock-WS2026-CA`).
+- Déployer une **PKI d'Entreprise** avec le rôle **Active Directory Certificate Services (AD CS)** sous **Windows Server 2025** (`oclock-WS2026-CA`).
 - Sécuriser l'accès à l'intranet web via un certificat SSL/TLS valide (port 443) sans avertissement de sécurité sur les clients.
 - Expérimenter le mécanisme de **révocation des certificats** (liste CRL et cache `certutil`).
 - Déployer et autoriser le rôle **Serveur DHCP** sur Windows Server à la place du routeur OPNsense.
@@ -30,7 +30,7 @@
 
 ## 🛠️ Étapes de Configuration (Lab & Manipulations)
 
-### 1️⃣ Déploiement d'AD CS sous Windows Server 2026
+### 1️⃣ Déploiement d'AD CS sous Windows Server 2025
 1. Installation du rôle **Services de certificats Active Directory** (`certsrv.msc`).
 2. Configuration de l'autorité racine d'entreprise :
    - Type : **AC d'entreprise** / **AC racine**.
